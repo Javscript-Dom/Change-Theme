@@ -1,0 +1,38 @@
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: sans-serif;
+    transition: all .5s;
+}
+
+*{box-sizing: border-box;}
+
+.theme{
+    width: 100px;
+    background: rgba(133, 189, 209, 0.605);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.theme #icon{
+    padding: 7px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    transition: all .3s;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.235);
+}
+
+.left{
+    margin-left: 0px;
+}
+
+.right{
+    margin-right: 70px;
+}
